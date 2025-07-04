@@ -2,9 +2,22 @@ import express, { Application, NextFunction, Request, Response } from "express";
 import { bookRoutes } from "./app/controllers/book.controller";
 import { borrowRoutes } from "./app/controllers/borrow.controller";
 
+import cors from "cors"
+
 const app: Application = express();
 
 app.use(express.json());
+
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://b5-a4-frontend-sazid.vercel.app"
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    credentials: false,
+  })
+);
 
 // routes
 app.use("/api/books", bookRoutes);
