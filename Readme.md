@@ -1,10 +1,9 @@
-# Library Management System
+# Library Management System - Backend 
 
 This is a backend project for managing a library. It is built using Express.js, MongoDB, Mongoose, TypeScript, and Zod for validation. The project follows the MVC (Model-View-Controller) pattern, which helps keep the code clean and organized. It includes proper schema validation, filtering features, and business logic like availability control during borrowing. The project also uses the MongoDB aggregation pipeline, Mongoose middlewares (pre/post), and includes static method for better data handling.
 
-#### Live Link :  [Live Deployed Link](https://b5-a3-sazid.vercel.app)
+#### Live Link :  [Live Deployed Link](https://b5-a4-backend-sazid.vercel.app)
 
-#### Video Instruction Link : [Video Demonstration Link](https://drive.google.com/file/d/1J5rmgRGf2bUyT2jl_aQc6DWRukojG_95/view?usp=sharing)
 
 
 ### Features
@@ -64,8 +63,8 @@ This is a backend project for managing a library. It is built using Express.js, 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/Sazid60/B5-A3.git
-cd B5-A3
+git clone https://github.com/Sazid60/B5-A4-Backend
+cd B5-A4-Backend
  ```
 2. **Install Dependencies**
 
@@ -96,7 +95,7 @@ npm run dev
 - Endpoint URL: /api/books
 
 ```
-https://b5-a3-sazid.vercel.app/api/books
+https://b5-a4-backend-sazid.vercel.app/api/books
 ```
 
 - Data Inside Body:
@@ -122,13 +121,13 @@ https://b5-a3-sazid.vercel.app/api/books
 - Endpoint URL: /api/books
 
 ```
-https://b5-a3-sazid.vercel.app/api/books
+https://b5-a4-backend-sazid.vercel.app/api/books
 ```
 
 - If we hit this url it will show all the book data. 
 
 ```
-https://b5-a3-sazid.vercel.app/api/books?filter=SCIENCE&sortBy=createdAt&sort=desc&limit=5
+https://b5-a4-backend-sazid.vercel.app/api/books?filter=SCIENCE&sortBy=createdAt&sort=desc&limit=5
 ```
 
 - Here we can do filtering sorting and limiting. By default the data is limited by 10 data.
@@ -143,7 +142,7 @@ https://b5-a3-sazid.vercel.app/api/books?filter=SCIENCE&sortBy=createdAt&sort=de
 - Endpoint URL: /api/books/:bookId
 
 ```
-https://b5-a3-sazid.vercel.app/api/books/6856ae72cc2dae1d909abd35
+https://b5-a4-backend-sazid.vercel.app/api/books/6856ae72cc2dae1d909abd35
 ```
 **Change The Id**
 
@@ -158,7 +157,7 @@ https://b5-a3-sazid.vercel.app/api/books/6856ae72cc2dae1d909abd35
 - Endpoint URL: /api/books/:bookId
 
 ```
-https://b5-a3-sazid.vercel.app/api/books/6856ae72cc2dae1d909abd35
+https://b5-a4-backend-sazid.vercel.app/api/books/6856ae72cc2dae1d909abd35
 ```
 **Change The Id**
 
@@ -180,7 +179,7 @@ https://b5-a3-sazid.vercel.app/api/books/6856ae72cc2dae1d909abd35
 - Endpoint URL: /api/books/:bookId 
 
 ```
-https://b5-a3-sazid.vercel.app/api/books/6856ae72cc2dae1d909abd35
+https://b5-a4-backend-sazid.vercel.app/api/books/6856ae72cc2dae1d909abd35
 ```
 **Change The Id**
 
@@ -194,7 +193,7 @@ https://b5-a3-sazid.vercel.app/api/books/6856ae72cc2dae1d909abd35
 - Endpoint URL: /api/borrow
 
 ```
-https://b5-a3-sazid.vercel.app/api/borrow
+https://b5-a4-backend-sazid.vercel.app/api/borrow
 ```
 - Data Inside Body  : 
 
@@ -220,7 +219,7 @@ https://b5-a3-sazid.vercel.app/api/borrow
 - Endpoint URL: /api/borrow
 
 ```
-https://b5-a3-sazid.vercel.app/api/borrow
+https://b5-a4-backend-sazid.vercel.app/api/borrow
 ```
 
 - The borrow data is grouped by book ID.
