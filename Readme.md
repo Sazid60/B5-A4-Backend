@@ -2,7 +2,9 @@
 
 This is a backend project for managing a library. It is built using Express.js, MongoDB, Mongoose, TypeScript, and Zod for validation. The project follows the MVC (Model-View-Controller) pattern, which helps keep the code clean and organized. It includes proper schema validation, filtering features, and business logic like availability control during borrowing. The project also uses the MongoDB aggregation pipeline, Mongoose middlewares (pre/post), and includes static method for better data handling.
 
-#### Live Link :  [Live Deployed Link](https://b5-a4-backend-sazid.vercel.app)
+#### Frontend Live Link :  [Frontend-Live](https://b5-a4-frontend-sazid.vercel.app/)
+#### Backend Live Link :  [Backend-Live](https://b5-a4-backend-sazid.vercel.app)
+#### Frontend Repository Link :  [Frontend-Repository](https://github.com/Sazid60/B5-A4-Frontend)
 
 
 
